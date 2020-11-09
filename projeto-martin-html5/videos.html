@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang = 'pt-BR'>
+<head>
+    <meta charset='UTF-8'>
+    <title>Martin Luther King Jr.</title>
+<link rel="stylesheet" href="_css/estilo.css">
+<link rel="stylesheet" href="_css/media.css">
+</head>
+<script src="_javascript/funcoes.js"></script>
+<body>
+<div id = 'interface'>
+<header id='cabecalho'>
+        <hgroup>
+            <h1>Martin Luther King Jr.</h1>
+        </hgroup> 
+    <img id="fotomartin1" src="_imagens/transparente.png">
+    <nav id="menu">
+        <h1>Menu Principal</h1>
+    <ul type='disc'> 
+        <li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/transparente.png')"><a href="home.html">Home</a></li>
+        <li onmouseover="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/transparente.png')"><a href="fotos.html">Fotos</a></li>   
+        <li onmouseover="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/transparente.png')"><a href="videos.html">Vídeos</a></li>
+    </ul>  
+    </nav>
+</header>
+
+<div id="videomartin">
+    <h2>Discurso "I Have A Dream"</h2>
+    <video id="video" controls>
+        <source src="_media/martindiscurso.mp4"> 
+    </video>
+    
+</div>
+
+<footer id="rodape">
+    <em><p>Copyright 2020 - Guilherme Giglio&copy;</p></em>
+</footer>
+
+</div>
+</body>
+</html>

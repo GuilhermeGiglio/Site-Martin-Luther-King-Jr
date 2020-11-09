@@ -1,0 +1,8 @@
+div#videomartin{
+    padding: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+div#videomartin video{
+    width: 500px;  
+}

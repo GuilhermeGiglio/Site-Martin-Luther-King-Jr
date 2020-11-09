@@ -1,0 +1,60 @@
+ul#galeria{
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+ul#galeria li{
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border: 5px solid rgb(255, 255, 255);
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+    transition: all 0.3s ease-in;
+}
+ul#galeria li:hover{
+    transform: scale(1.3);
+}
+ul#galeria li#fotogaleria01{
+    background: url('https://media.gettyimages.com/photos/dr-martin-luther-king-jr-giving-his-i-have-a-dream-speech-to-huge-picture-id50681515?s=2048x2048') no-repeat;
+    background-position: 50% 50%;
+    background-size: 500px;
+    background-color: #ffffff;
+}
+ul#galeria li#fotogaleria01:hover {
+    background-position: 0px 0px;
+    background-size: 450px;
+}
+ul#galeria li#fotogaleria02{
+    background: url('https://media.gettyimages.com/photos/washington-monument-from-the-lincoln-memorial-picture-id471728234?s=2048x2048') no-repeat;
+    background-position: 50% 50%;
+    background-size: 500px;
+    background-color: #ffffff;
+}
+ul#galeria li#fotogaleria02:hover {
+    background-position: 0px 0px 20px;
+    background-size: 450px;
+}
+ul#galeria li#fotogaleria03{
+    background: url('https://media.gettyimages.com/photos/civil-rights-leader-reverend-martin-luther-king-jr-delivers-a-speech-picture-id74280021?s=2048x2048') no-repeat;
+    background-position: 50% 50%;
+    background-size: 500px; 
+    background-color: #ffffff; 
+}
+ul#galeria li#fotogaleria03:hover {
+    background-position: 0px 0px;
+    background-size: 450px;
+}
+ul#galeria li#fotogaleria04{
+    background: url('https://media.gettyimages.com/photos/have-a-dream-reflexion-picture-id458554159?s=2048x2048') no-repeat;
+    background-position: 50% 50%;
+    background-size: 500px; 
+    background-color: #ffffff;   
+}
+ul#galeria li#fotogaleria04:hover {
+    background-position: 0px 0px;
+    background-size: 450px;
+}
